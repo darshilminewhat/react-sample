@@ -32,13 +32,15 @@ storiesOf('Fixed Data Table', module)
 
 class Table extends Component {
     constructor(props) {
-        super()
+        super(props)
+        this.onSort = this.onSort.bind(this)
+        this.sortItems = this.sortItems.bind(this)
+        this.cellMethod = this.cellMethod.bind(this)
+        this.headerMethod = this.headerMethod.bind(this)
         this.state = {
             sortByMulti: props.sortBy,
             onSort: props.onSort || this.onSort
         }
-        this.cellMethod = this.cellMethod.bind(this)
-        this.headerMethod = this.headerMethod.bind(this)
     }
     render() {
         var tableProps = {

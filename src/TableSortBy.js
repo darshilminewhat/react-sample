@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './TableSortBy.css';
 
 class TableSortBy extends Component{
     constructor(props) {

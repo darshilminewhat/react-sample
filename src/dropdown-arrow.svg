@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="8px" viewBox="0 0 14 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>dropdown arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="90" y="230" width="1170" height="1349" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.117647059   0 0 0 0 0.494117647   0 0 0 0 0.635294118  0 0 0 0.03 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Content---Products-View" transform="translate(-1206.000000, -663.000000)">
+            <g id="BG" transform="translate(70.000000, 0.000000)">
+                <rect id="Rectangle" fill="none" fill-rule="evenodd" x="0" y="0" width="1210" height="1934"></rect>
+                <text id="Terms-and-Conditions" font-family="OpenSans-Light, Open Sans" font-size="12" font-weight="300" line-spacing="24" letter-spacing="0.857142866" fill="#A5C0D6">
+                    <tspan x="480.464704" y="1859">Terms and Conditions  .  Contact  .  Help</tspan>
+                    <tspan x="730.535296" y="1859" font-family="OpenSans-Semibold, Open Sans" font-weight="500" letter-spacing="0.734693885"></tspan>
+                    <tspan x="515.291753" y="1883" font-family="OpenSans-Semibold, Open Sans" font-weight="500" letter-spacing="0.734693885">© 2014-2016 MineWhat, Inc.</tspan>
+                </text>
+            </g>
+            <g id="Rectangle-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="none" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-6" transform="translate(261.000000, 638.000000)" fill="none">
+                <rect id="Rectangle-8" x="0" y="0" width="979" height="299" rx="5"></rect>
+            </g>
+            <g id="dropdown-arrow" transform="translate(1206.000000, 663.000000)" fill="#567181">
+                <g id="Layer_10">
+                    <path d="M6.84444444,7.15555556 C6.68888889,7.15555556 6.53333333,7.09333333 6.44,7 L0.217777778,1.4 C-0.0311111111,1.18222222 -0.0622222222,0.777777778 0.186666667,0.528888889 C0.404444444,0.28 0.808888889,0.248888889 1.05777778,0.497777778 L6.84444444,5.69333333 L12.6622222,0.466666667 C12.9111111,0.248888889 13.3155556,0.248888889 13.5333333,0.497777778 C13.7511111,0.746666667 13.7511111,1.15111111 13.5022222,1.36888889 L7.28,6.96888889 C7.15555556,7.09333333 7,7.15555556 6.84444444,7.15555556 L6.84444444,7.15555556 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

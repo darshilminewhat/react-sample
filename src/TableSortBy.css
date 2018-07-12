@@ -28,3 +28,51 @@
 .users-table-sort-buttons > .down.active:after {
 	border-top-color: #000000;
 }
+
+.status-icon {
+	width: 35px;
+	height: 35px;
+	border-radius: 20px;
+	padding: 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.status-icon:hover {
+	transform: scale(1.04);
+}
+
+.status-icon:hover.built-in-page {
+	transform: none;
+}
+
+.status-icon.disabled {
+	opacity: 0.4;
+}
+
+.status-icon.disabled:hover {
+	transform: scale(1);
+}
+
+.status-icon.sort-down {
+	width: 13px;
+	height: 10px;
+	background: transparent inline-image("./sort-arrow.svg") no-repeat center;
+	background-size: 13px;
+}
+
+.status-icon.sort-down.active {
+	background: transparent inline-image("./dropdown-arrow-white.svg") no-repeat center;
+}
+
+.status-icon.sort-up {
+	width: 13px;
+	height: 10px;
+	background: transparent inline-image("./sort-arrow.svg") no-repeat center;
+	background-size: 13px;
+	transform: rotate(180deg);
+}
+
+.status-icon.sort-up.active {
+	background: transparent inline-image("./dropdown-arrow-white.svg") no-repeat center;
+}
