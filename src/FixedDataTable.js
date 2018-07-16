@@ -1,6 +1,8 @@
 // var Reflux = require('reflux');
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import injectSheet, {ThemeProvider} from 'react-jss';
+import tableStyle from './FixedDataTableJss';
 import './FixedDataTable.css';
 var FixedDataTable = require('fixed-data-table-2');
 // var actions = require('../../settings/actions/actions');
@@ -8,7 +10,10 @@ var Table = FixedDataTable.Table;
 var Column = FixedDataTable.Column;
 var $ = require('jquery');
 var _ = require('underscore');
-// import Utils from "../utilities/Utils";
+
+const style = theme => {
+    return tableStyle(theme)
+}
 
 class FixedTableWrap extends Component{
     // mixins: [
@@ -88,4 +93,4 @@ FixedTableWrap.defaultProps = {
     cellMethod: null
 };
 
-export default FixedTableWrap;
+export default injectSheet(style)(FixedTableWrap);

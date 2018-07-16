@@ -14,21 +14,21 @@ var Popover = ReactBootstrap.Popover;
 var MenuItem = ReactBootstrap.MenuItem;
 
 storiesOf('Fixed Data Table', module)
-    .add('Table with fixed width of columns', () => (
-        <div className="App-content">
-            <Table data={sampleFields.data} fields={sampleFields.set2} />
-        </div>
-    ))
-    .add('Table with fixed columns', () => (
-        <div className="App-content">
-            <Table data={sampleFields.data} fields={sampleFields.set3} />
-        </div>
-    ))
-    .add('Table with sorting options', () => (
-        <div className="App-content">
-            <Table data={sampleFields.data} fields={sampleFields.set4} sortBy={"name"} sortOrder={"desc"} />
-        </div>
-    ));
+.add('Table with fixed width of columns', () => (
+    <div className="App-content">
+        <Table data={sampleFields.data} fields={sampleFields.set2} />
+    </div>
+))
+.add('Table with fixed columns', () => (
+    <div className="App-content">
+        <Table data={sampleFields.data} fields={sampleFields.set3} />
+    </div>
+))
+.add('Table with sorting options', () => (
+    <div className="App-content">
+        <Table data={sampleFields.data} fields={sampleFields.set4} sortBy={"name"} sortOrder={"desc"} />
+    </div>
+));
 
 class Table extends Component {
     constructor(props) {

@@ -107,6 +107,7 @@ export default {
     "button_disabled" : "#cec3c3",
     "button_red_color" : "#ed5565",
     "example_color": "#9FBBD3",
+    "z" : "test"
 }
 
 
